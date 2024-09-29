@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin: 0 auto;
+  background-color: #F7F8FB;
+  overflow: auto;
+  font-family: 'Lato';
+
+}
+.linkSpan{
+  color: #E50914;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.trans{
+  transition: all 0.4s ease-in-out;
+}
+.redlink{
+  color: #E50914;
+  cursor: pointer;
+}
+.circleShadow{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  
+  padding: 1.3rem;
+  filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.25));
+  border-radius: 50%;
+}
+.actual{
+  transition: opacity 0.5s ease;
+  transition-delay: 1.5s;
+}
+.fade-in {
+  transition: opacity 1.5s ease;
+ 
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1.5s ease;
+}
+.myCenter{
+  margin: 0 auto;
+  margin-top: 4rem;
+ 
+}
+.myCenter2{
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+ 
+}
+.myCenter3{
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+ 
+}
+.myCenter4{
+  margin: 0 auto;
+}
+.MuiPaper-root {
+  outline: none;
+}
+.ant-switch-checked::after{
+ background-color: #4B6F21 !important;
+}
+.font-raleway{
+  font-family: 'Raleway';
+}
